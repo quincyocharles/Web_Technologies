@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Links</title>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+
+      header {
+        background-color: #000000;
+        color: #fff;
+        padding: 10px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 10px;
+      }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .container {
+        width: 80%;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+      }
+
+      .container img {
+        width: 60%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 10px;
+      }
+
+      .gallery a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      .menu ul {
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Image Links</h1>
+
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#menu">Menu</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our website! Here is an image related to technology:</p>
+        <a href="#"
+          ><img
+            src="https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?t=st=1708624976~exp=1708625576~hmac=a9b32ae22535d22597546c29292e38e39dbd703c085afeaa8bd6b8cf80987c7e"
+            alt="Technology"
+        /></a>
+      </section>
+
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+          <a href="#">
+            <img
+              src="https://img.freepik.com/free-photo/beautiful-scenery-rock-formations-by-sea-queens-bath-kauai-hawaii-sunset_181624-36857.jpg?w=740&t=st=1708626028~exp=1708626628~hmac=1b54f3efac1ed6215c77d72ef88e7d18fba370edf020d295183187ecabff02b9"
+              alt="nature101"
+            />
+          </a>
+
+          <a href="#">
+            <img
+              src="https://img.freepik.com/free-photo/cascade-boat-clean-china-natural-rural_1417-1356.jpg?w=360&t=st=1708626170~exp=1708626770~hmac=dc6359c3b8c40df732f1b1a36f7efc8e9f7d75127b4f729bb62482512714a723"
+              alt="nature102"
+            />
+          </a>
+
+          <a href="#">
+            <img
+              src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=360&t=st=1708626318~exp=1708626918~hmac=284ecf5925fc02a0caf10e5d50da5c85e3126866d871b08142f21909a54c2430"
+              alt="nature103"
+            />
+          </a>
+        </div>
+      </section>
+
+      <section id="menu">
+        <h2>Menu</h2>
+        <ul>
+          <li>
+            <a href="https://www.food.com/"
+              ><img
+                src="https://img.freepik.com/free-photo/closeup-roasted-meat-with-sauce-vegetables-fries-plate-table_181624-35847.jpg?w=996&t=st=1708626969~exp=1708627569~hmac=423b74ab802f23b34c217a4f79e666da8850ae5c8e2f49dcec66f1fc523df2e0"
+                alt="food1"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.food.com/"
+              ><img
+                src="https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg?w=996&t=st=1708627023~exp=1708627623~hmac=2f54704f78e9bcde6da06f6e7521d82879830e243888ee6c7bb0d4e1b9deb161"
+                alt="food2"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.food.com/"
+              ><img
+                src="https://img.freepik.com/free-photo/freshly-cooked-meat-stew-with-rice-vegetables-generative-ai_188544-8342.jpg?w=1060&t=st=1708627167~exp=1708627767~hmac=77d1a6ad22150319d64beeeb617dc05a3f6329aa16422cc9a86999926f04e577"
+                alt="food3"
+            /></a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
+
